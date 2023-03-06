@@ -3,6 +3,8 @@ import "../styles/App.css";
 import Heading from "../components/Heading";
 import InputQuery from "../components/InputQuery";
 import BlackSquare from "./BlackSquare";
+import RandomColorButton from "./RandomColorButton";
+import LetterList from "./LetterList";
 
 const App = () => {
   const previousState = useRef(null);
@@ -32,6 +34,8 @@ const App = () => {
       <Heading />
       <InputQuery />
       <BlackSquare />
+      <RandomColorButton />
+      <LetterList />
     </div>
   );
 };
